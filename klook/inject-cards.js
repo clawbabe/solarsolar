@@ -1,4 +1,4 @@
-/**
+﻿/**
  * cards_fragment.txt → klook/index.html 주입
  * 실행: node inject-cards.js
  */
@@ -97,19 +97,19 @@ ${cards}
             인기 할인코드
           </h3>
           <div class="space-y-2">
-            <a href="/agoda/" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
+            <a href="/agoda" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
               <i data-lucide="ticket" class="w-4 h-4"></i>
               아고다 할인코드
             </a>
-            <a href="/tripcom/" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
+            <a href="/tripcom" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
               <i data-lucide="ticket" class="w-4 h-4"></i>
               트립닷컴 할인코드
             </a>
-            <a href="/myrealtrip/" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
+            <a href="/myrealtrip" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
               <i data-lucide="ticket" class="w-4 h-4"></i>
               마이리얼트립 할인코드
             </a>
-            <a href="/kkday/" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
+            <a href="/kkday" class="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 text-sm text-gray-600">
               <i data-lucide="ticket" class="w-4 h-4"></i>
               KKday 할인코드
             </a>

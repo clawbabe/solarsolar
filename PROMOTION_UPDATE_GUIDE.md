@@ -1,4 +1,4 @@
-# 솔라 할인코드 - 프로모션 업데이트 가이드
+﻿# 솔라 할인코드 - 프로모션 업데이트 가이드
 
 **중요: 프로모션 정보 업데이트 작업 시 이 파일을 항상 먼저 읽고 진행할 것**
 
@@ -611,19 +611,19 @@ function copyCode(code, btn) {
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="m6 9 6 6 6-6"/></svg>
         </a>
         <div class="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-lg border py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <a href="/agoda/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">아고다</a>
-          <a href="/tripcom/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">트립닷컴</a>
-          <a href="/expedia/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">익스피디아</a>
-          <a href="/hotelscom/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">호텔스닷컴</a>
-          <a href="/bookingcom/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">부킹닷컴</a>
-          <a href="/myrealtrip/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">마이리얼트립</a>
-          <a href="/klook/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">클룩</a>
-          <a href="/kkday/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">케이케이데이</a>
-          <a href="/airalo/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">에어알로</a>
-          <a href="/yanolja/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">놀</a>
-          <a href="/rakuten/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">라쿠텐</a>
-          <a href="/dfs/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">면세점</a>
-          <a href="/coupang/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">쿠팡</a>
+          <a href="/agoda" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">아고다</a>
+          <a href="/tripcom" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">트립닷컴</a>
+          <a href="/expedia" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">익스피디아</a>
+          <a href="/hotelscom" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">호텔스닷컴</a>
+          <a href="/bookingcom" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">부킹닷컴</a>
+          <a href="/myrealtrip" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">마이리얼트립</a>
+          <a href="/klook" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">클룩</a>
+          <a href="/kkday" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">케이케이데이</a>
+          <a href="/airalo" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">에어알로</a>
+          <a href="/yanolja" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">놀</a>
+          <a href="/rakuten" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">라쿠텐</a>
+          <a href="/dfs" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">면세점</a>
+          <a href="/coupang" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">쿠팡</a>
         </div>
       </div>
       
@@ -634,9 +634,9 @@ function copyCode(code, btn) {
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="m6 9 6 6 6-6"/></svg>
         </a>
         <div class="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-lg border py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <a href="/ali/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">알리익스프레스</a>
-          <a href="/temu/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">테무</a>
-          <a href="/speak/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">스픽</a>
+          <a href="/ali" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">알리익스프레스</a>
+          <a href="/temu" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">테무</a>
+          <a href="/speak" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary">스픽</a>
         </div>
       </div>
     </nav>
@@ -670,19 +670,19 @@ function copyCode(code, btn) {
       <div>
         <h4 class="font-bold text-lg mb-4">여행</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="/agoda/" class="text-gray-400 hover:text-primary transition-colors">아고다</a></li>
-          <li><a href="/tripcom/" class="text-gray-400 hover:text-primary transition-colors">트립닷컴</a></li>
-          <li><a href="/expedia/" class="text-gray-400 hover:text-primary transition-colors">익스피디아</a></li>
-          <li><a href="/hotelscom/" class="text-gray-400 hover:text-primary transition-colors">호텔스닷컴</a></li>
-          <li><a href="/bookingcom/" class="text-gray-400 hover:text-primary transition-colors">부킹닷컴</a></li>
-          <li><a href="/myrealtrip/" class="text-gray-400 hover:text-primary transition-colors">마이리얼트립</a></li>
-          <li><a href="/klook/" class="text-gray-400 hover:text-primary transition-colors">클룩</a></li>
-          <li><a href="/kkday/" class="text-gray-400 hover:text-primary transition-colors">케이케이데이</a></li>
-          <li><a href="/airalo/" class="text-gray-400 hover:text-primary transition-colors">에어알로</a></li>
-          <li><a href="/yanolja/" class="text-gray-400 hover:text-primary transition-colors">놀</a></li>
-          <li><a href="/rakuten/" class="text-gray-400 hover:text-primary transition-colors">라쿠텐</a></li>
-          <li><a href="/dfs/" class="text-gray-400 hover:text-primary transition-colors">면세점</a></li>
-          <li><a href="/coupang/" class="text-gray-400 hover:text-primary transition-colors">쿠팡</a></li>
+          <li><a href="/agoda" class="text-gray-400 hover:text-primary transition-colors">아고다</a></li>
+          <li><a href="/tripcom" class="text-gray-400 hover:text-primary transition-colors">트립닷컴</a></li>
+          <li><a href="/expedia" class="text-gray-400 hover:text-primary transition-colors">익스피디아</a></li>
+          <li><a href="/hotelscom" class="text-gray-400 hover:text-primary transition-colors">호텔스닷컴</a></li>
+          <li><a href="/bookingcom" class="text-gray-400 hover:text-primary transition-colors">부킹닷컴</a></li>
+          <li><a href="/myrealtrip" class="text-gray-400 hover:text-primary transition-colors">마이리얼트립</a></li>
+          <li><a href="/klook" class="text-gray-400 hover:text-primary transition-colors">클룩</a></li>
+          <li><a href="/kkday" class="text-gray-400 hover:text-primary transition-colors">케이케이데이</a></li>
+          <li><a href="/airalo" class="text-gray-400 hover:text-primary transition-colors">에어알로</a></li>
+          <li><a href="/yanolja" class="text-gray-400 hover:text-primary transition-colors">놀</a></li>
+          <li><a href="/rakuten" class="text-gray-400 hover:text-primary transition-colors">라쿠텐</a></li>
+          <li><a href="/dfs" class="text-gray-400 hover:text-primary transition-colors">면세점</a></li>
+          <li><a href="/coupang" class="text-gray-400 hover:text-primary transition-colors">쿠팡</a></li>
         </ul>
       </div>
       
@@ -690,9 +690,9 @@ function copyCode(code, btn) {
       <div>
         <h4 class="font-bold text-lg mb-4">쇼핑</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="/ali/" class="text-gray-400 hover:text-primary transition-colors">알리익스프레스</a></li>
-          <li><a href="/temu/" class="text-gray-400 hover:text-primary transition-colors">테무</a></li>
-          <li><a href="/speak/" class="text-gray-400 hover:text-primary transition-colors">스픽</a></li>
+          <li><a href="/ali" class="text-gray-400 hover:text-primary transition-colors">알리익스프레스</a></li>
+          <li><a href="/temu" class="text-gray-400 hover:text-primary transition-colors">테무</a></li>
+          <li><a href="/speak" class="text-gray-400 hover:text-primary transition-colors">스픽</a></li>
         </ul>
       </div>
     </div>
