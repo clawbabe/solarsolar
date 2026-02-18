@@ -1,0 +1,38 @@
+# 카드 생성 산출물 (매번 node gen-cards.js 로 재생성)
+agoda/cards_fragment.txt
+agoda/tab_counts.json
+klook/cards_fragment.txt
+klook/tab_counts.json
+tripcom/cards_fragment.txt
+tripcom/tab_counts.json
+rakuten/cards_fragment.txt
+rakuten/tab_counts.json
+_shared/faq_parsed.json
+
+# 백업 파일 (필요 시 보관 후 제거)
+*-backup*.html
+*.bak
+
+# 마이리얼트립 빌드 파일
+myrealtrip/cards_fragment.txt
+myrealtrip/gen-cards-md.js
+myrealtrip/inject-cards.js
+myrealtrip/tab_counts.json
+
+# 익스피디아 빌드 파일
+expedia/cards_fragment.txt
+expedia/gen-cards.js
+expedia/inject-cards.js
+expedia/tab_counts.json
+
+# 호텔스닷컴 빌드 파일
+hotelscom/cards_fragment.txt
+hotelscom/gen-cards.js
+hotelscom/inject-cards.js
+hotelscom/tab_counts.json
+
+# OS/에디터
+.DS_Store
+Thumbs.db
+*.swp
+*~

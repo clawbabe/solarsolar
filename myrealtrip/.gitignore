@@ -1,0 +1,16 @@
+# Generated files
+cards_fragment.txt
+gen-cards-md.js
+inject-cards.js
+
+# Backup files
+*-backup*.html
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
