@@ -133,7 +133,7 @@ for (const row of dataRows) {
   const notice = get(row, col.notice);
 
   const cat = category(issuer, name);
-  const link = 'https://kr.trip.com/';
+  const link = 'http://app.ac/2qp4OR273';
   const rateDisplay = rate || '—';
 
   // 예약기간 포맷팅
