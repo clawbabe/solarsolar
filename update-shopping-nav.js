@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 const basePath = __dirname;
@@ -8,7 +8,7 @@ const headerDropdownNew = `        <div class="absolute top-full left-0 mt-2 bg-
           <a href="/ali" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/aliexpress.png" class="w-5 h-5 object-contain rounded" alt="">알리익스프레스</a>
           <a href="/temu" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/temu.png" class="w-5 h-5 object-contain rounded" alt="">테무</a>
           <a href="/speak" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/speak.png" class="w-5 h-5 object-contain rounded" alt="">스픽</a>
-          <a href="/usimsa" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/solar.svg" class="w-5 h-5 object-contain rounded" alt="">유심사</a>
+          <a href="/usimsa" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/usimsa.png" class="w-5 h-5 object-contain rounded" alt="">유심사</a>
           <a href="/soomgo" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/solar.svg" class="w-5 h-5 object-contain rounded" alt="">숨고</a>
           <a href="/gmarket" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/solar.svg" class="w-5 h-5 object-contain rounded" alt="">지마켓</a>
           <a href="/hmall" class="flex items-center gap-2.5 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary"><img src="/images/logos/solar.svg" class="w-5 h-5 object-contain rounded" alt="">현대H몰</a>
@@ -28,7 +28,7 @@ const mobileShoppingNew = `        <div id="shopping-mobile" class="hidden pl-2 
           <a href="/ali" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/aliexpress.png" class="w-6 h-6 object-contain rounded" alt="">알리익스프레스</a>
           <a href="/temu" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/temu.png" class="w-6 h-6 object-contain rounded" alt="">테무</a>
           <a href="/speak" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/speak.png" class="w-6 h-6 object-contain rounded" alt="">스픽</a>
-          <a href="/usimsa" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/solar.svg" class="w-6 h-6 object-contain rounded" alt="">유심사</a>
+          <a href="/usimsa" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/usimsa.png" class="w-6 h-6 object-contain rounded" alt="">유심사</a>
           <a href="/soomgo" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/solar.svg" class="w-6 h-6 object-contain rounded" alt="">숨고</a>
           <a href="/gmarket" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/solar.svg" class="w-6 h-6 object-contain rounded" alt="">지마켓</a>
           <a href="/hmall" class="flex items-center gap-3 text-gray-700 hover:text-primary py-2.5 px-2 rounded-lg hover:bg-gray-50"><img src="/images/logos/solar.svg" class="w-6 h-6 object-contain rounded" alt="">현대H몰</a>
