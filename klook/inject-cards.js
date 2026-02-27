@@ -1,4 +1,4 @@
-﻿/**
+/**
  * cards_fragment.txt → klook/index.html 주입
  * 실행: node inject-cards.js
  */
@@ -16,7 +16,7 @@ const counts = JSON.parse(fs.readFileSync(countsPath, 'utf8'));
 
 const BRAND_COLOR = '#ff5722';
 const BRAND_CLASS = 'klook';
-const TODAY = '2026년 2월 16일';
+const TODAY = '2026년 3월 1일';
 
 // 메인 컨텐츠 섹션 교체 (<!-- Main Content with Sidebar --> ~ <!-- 구분선 -->)
 const mainStart = html.indexOf('<!-- Main Content with Sidebar -->');
