@@ -537,7 +537,7 @@ if(window.wcs) {
       <div class="w-10 h-10 rounded-full bg-myrealtrip/10 flex items-center justify-center">
         <i data-lucide="refresh-cw" class="w-5 h-5 text-myrealtrip"></i>
       </div>
-      <p class="text-sm">최근 업데이트: <span class="font-bold text-myrealtrip">2026년 3월 1일</span> · 총 <span class="font-bold text-myrealtrip">24개</span> 프로모션</p>
+      <p class="text-sm">최근 업데이트: <span class="font-bold text-myrealtrip">2026년 3월 1일</span> · 총 <span class="font-bold text-myrealtrip">25개</span> 프로모션</p>
     </div>
   </div>
 </section>
@@ -547,10 +547,10 @@ if(window.wcs) {
   <div class="max-w-6xl mx-auto px-4">
     <!-- Filter Tabs -->
     <div class="flex flex-wrap gap-2 mb-6" role="tablist" aria-label="쿠폰 필터">
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (24)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (25)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('payment')" id="tab-payment">결제수단 (4)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('billing')" id="tab-billing">청구할인 (4)</button>
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('flight')" id="tab-flight">항공권 (10)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('flight')" id="tab-flight">항공권 (11)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('installment')" id="tab-installment">무이자 (4)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('deal')" id="tab-deal">특가 (2)</button>
     </div>
@@ -559,6 +559,35 @@ if(window.wcs) {
       <!-- Coupons Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" role="list" aria-label="쿠폰 목록">
         
+        <!-- 럭키 글라이드 -->
+        <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="flight">
+          <div class="flex flex-col min-h-[320px]">
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="inline-flex items-center rounded-full border border-transparent bg-green-100 text-green-700 px-2.5 py-0.5 text-xs font-semibold transition-colors">✓ 검증됨</span>
+              <span class="inline-flex items-center rounded-full border border-transparent bg-blue-100 text-blue-700 px-2.5 py-0.5 text-xs font-semibold transition-colors">✈️ 항공권</span>
+            </div>
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-myrealtrip">럭키 글라이드</span>
+            </div>
+            <h3 class="font-bold mb-2 text-sm">항공권 AI 탐색 서비스</h3>
+            <p class="text-xs text-gray-500 mb-2">인천공항 출발 기준으로 탐색</p>
+            <details class="mb-3">
+              <summary class="text-xs text-myrealtrip cursor-pointer hover:underline mb-2 flex items-center gap-1">
+                📋 유의사항 상세보기
+              </summary>
+              <div class="text-xs text-gray-600 space-y-2 mt-2 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                <p><strong>사용조건:</strong> 럭키글라이드 접속 후 항공권 조회 혹은 마이리얼트립 '항공권' 메뉴에서 럭키글라이드 사용 가능.</p>
+              </div>
+            </details>
+            <div class="space-y-1 text-xs text-gray-400 mb-4 mt-auto">
+              <div class="flex justify-between items-start gap-2"><span class="flex-shrink-0">유효기간:</span><span class="text-right">2026년 ~</span></div>
+              <div class="flex justify-between items-start gap-2"><span class="flex-shrink-0">할인금액:</span><span class="text-right">최저가 탐색 도구</span></div>
+              <div class="flex justify-between items-start gap-2"><span class="flex-shrink-0">할인코드:</span><span class="text-myrealtrip font-medium text-right">자동 적용</span></div>
+            </div>
+            <a href="https://luckyglide.myrealtrip.com/flightfinder" target="_blank" rel="noopener noreferrer nofollow" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-[#ff6b35] text-white hover:bg-[#e55a2b] h-9 px-4 py-2 w-full">럭키글라이드</a>
+          </div>
+        </div>
+
         <!-- 퀵계좌이체 -->
         <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="payment">
           <div class="flex flex-col min-h-[320px]">
