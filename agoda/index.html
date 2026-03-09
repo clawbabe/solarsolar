@@ -532,7 +532,7 @@ if(window.wcs) {
       <div class="w-10 h-10 rounded-full bg-agoda/10 flex items-center justify-center">
         <i data-lucide="refresh-cw" class="w-5 h-5 text-agoda"></i>
       </div>
-      <p class="text-sm">최근 업데이트: <span class="font-bold text-agoda">2026년 3월 1일</span> · 총 <span class="font-bold text-agoda">50개</span> 프로모션</p>
+      <p class="text-sm">최근 업데이트: <span class="font-bold text-agoda">2026년 3월 1일</span> · 총 <span class="font-bold text-agoda">52개</span> 프로모션</p>
     </div>
   </div>
 </section>
@@ -542,15 +542,71 @@ if(window.wcs) {
   <div class="max-w-6xl mx-auto px-4">
     <!-- Filter Tabs -->
     <div class="flex flex-wrap gap-2 mb-6" role="tablist" aria-label="쿠폰 필터">
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (50)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (52)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('card')" id="tab-card">카드 (21)</button>
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('sale')" id="tab-sale">특가/세일 (29)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('sale')" id="tab-sale">특가/세일 (31)</button>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
       <!-- Coupons Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" role="list" aria-label="쿠폰 목록">
         
+        <!-- 상위 12% 해외 할인코드 LP12AGD2 -->
+        <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="sale">
+          <div class="flex flex-col h-full">
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-transparent bg-green-100 text-green-700">✓ 검증됨</span>
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-gray-200 bg-white text-gray-700">⚡ 할인코드</span>
+            </div>
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-agoda">12% / 최대 $30</span>
+            </div>
+            <h2 class="font-bold mb-2 text-sm">해외 전 지역 12% 할인</h2>
+            <p class="text-xs text-gray-500 mb-2">예약 2026.02.27~3.31 · 숙박 ~2027.03.31</p>
+            <details class="mb-3">
+              <summary class="text-xs text-agoda cursor-pointer hover:underline mb-2 flex items-center gap-1">
+                📋 유의사항 상세보기
+              </summary>
+              <div class="text-xs text-gray-600 space-y-2 mt-2 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                <p><strong>사용조건:</strong> 해외 숙소 예약 시. 할인코드 사용 시 커미션 2.1%</p>
+              </div>
+            </details>
+            <div class="space-y-1 text-xs text-gray-400 mb-4 mt-auto">
+              <div class="flex justify-between"><span>예약 기간:</span><span>2026.02.27 ~ 3.31</span></div>
+              <div class="flex justify-between"><span>숙박 기간:</span><span>~2027.03.31</span></div>
+              <div class="flex justify-between"><span>할인코드:</span><span class="text-agoda font-medium">LP12AGD2</span></div>
+            </div>
+            <a href="http://app.ac/pjM7VSa13" target="_blank" rel="noopener noreferrer nofollow" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-[#007cc2] text-white hover:bg-[#0069a8] h-9 px-4 py-2 w-full">적용하기</a>
+          </div>
+        </div>
+        <!-- 상위 10% 국내 할인코드 LP10AGD2 -->
+        <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="sale">
+          <div class="flex flex-col h-full">
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-transparent bg-green-100 text-green-700">✓ 검증됨</span>
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-gray-200 bg-white text-gray-700">⚡ 할인코드</span>
+            </div>
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-agoda">10% / 최대 $25</span>
+            </div>
+            <h2 class="font-bold mb-2 text-sm">국내 10% 할인</h2>
+            <p class="text-xs text-gray-500 mb-2">예약 2026.02.27~3.31 · 숙박 ~2027.03.31</p>
+            <details class="mb-3">
+              <summary class="text-xs text-agoda cursor-pointer hover:underline mb-2 flex items-center gap-1">
+                📋 유의사항 상세보기
+              </summary>
+              <div class="text-xs text-gray-600 space-y-2 mt-2 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                <p><strong>사용조건:</strong> 국내 숙소 예약 시. 할인코드 사용 시 커미션 2.1%</p>
+              </div>
+            </details>
+            <div class="space-y-1 text-xs text-gray-400 mb-4 mt-auto">
+              <div class="flex justify-between"><span>예약 기간:</span><span>2026.02.27 ~ 3.31</span></div>
+              <div class="flex justify-between"><span>숙박 기간:</span><span>~2027.03.31</span></div>
+              <div class="flex justify-between"><span>할인코드:</span><span class="text-agoda font-medium">LP10AGD2</span></div>
+            </div>
+            <a href="http://app.ac/pjM7VSa13" target="_blank" rel="noopener noreferrer nofollow" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-[#007cc2] text-white hover:bg-[#0069a8] h-9 px-4 py-2 w-full">적용하기</a>
+          </div>
+        </div>
         <!-- 메가 세일 -->
         <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="sale">
           <div class="flex flex-col h-full">

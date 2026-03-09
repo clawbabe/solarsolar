@@ -555,15 +555,43 @@ if(window.wcs) {
   <div class="max-w-6xl mx-auto px-4">
     <!-- Filter Tabs -->
     <div class="flex flex-wrap gap-2 mb-6" role="tablist" aria-label="쿠폰 필터">
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (34)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border tab-active" role="tab" aria-selected="true" onclick="filterCoupons('all')" id="tab-all">전체 (35)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('card')" id="tab-card">카드 (22)</button>
-      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('sale')" id="tab-sale">특가/세일 (11)</button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('sale')" id="tab-sale">특가/세일 (12)</button>
       <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-4 py-2 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-200 bg-white text-gray-700 hover:bg-gray-50" role="tab" aria-selected="false" onclick="filterCoupons('new')" id="tab-new">신규회원 (1)</button>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
       <!-- Coupons -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" role="list" aria-label="쿠폰 목록">
+        <!-- 26년 3월 호텔 3% 할인 TRIPH3 -->
+        <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="sale">
+          <div class="flex flex-col min-h-[320px]">
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-transparent bg-green-100 text-green-700">✓ 검증됨</span>
+              <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-gray-200 bg-white text-gray-700">🏨 호텔</span>
+            </div>
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-[#0f294d]">3%</span>
+            </div>
+            <h2 class="font-bold mb-2 text-sm">26년 3월 호텔 3% 할인</h2>
+            <p class="text-xs text-gray-500 mb-2">쿠폰 사용 기간 2026.03.01~03.31 · 숙박기간 제한 없음</p>
+            <details class="mb-3">
+              <summary class="text-xs text-[#0f294d] cursor-pointer hover:underline mb-2 flex items-center gap-1">
+                📋 유의사항 상세보기
+              </summary>
+              <div class="text-xs text-gray-600 space-y-2 mt-2 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                <p><strong>사용조건:</strong> 트립닷컴 호텔 예약 시 프로모션 코드 입력</p>
+              </div>
+            </details>
+            <div class="space-y-1 text-xs text-gray-400 mb-4 mt-auto">
+              <div class="flex justify-between"><span>예약/쿠폰 기간:</span><span>2026.03.01 ~ 03.31</span></div>
+              <div class="flex justify-between"><span>숙박 기간:</span><span>제한 없음</span></div>
+              <div class="flex justify-between"><span>할인코드:</span><span class="text-[#0f294d] font-medium">TRIPH3</span></div>
+            </div>
+            <a href="http://app.ac/2qp4OR273" target="_blank" rel="noopener noreferrer nofollow" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-[#0f294d] text-white hover:bg-[#0a1f3a] h-9 px-4 py-2 w-full">적용하기</a>
+          </div>
+        </div>
         <!-- KB국민카드 호텔할인 -->
         <div class="coupon-card relative rounded-lg border bg-card text-card-foreground shadow-sm p-5 active" role="listitem" data-category="card">
           <div class="flex flex-col min-h-[320px]">
